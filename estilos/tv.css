@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
+}
+
+main{
+    border-radius: 10px 10px 10px 10px;
+    width: 950px;
+    height: 350px;  
+}
+
+section#login{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+section#login > div#imagem{  
+    height: 100%;
+    width: 45%;
+    order: 2;
+    display: flex;
+    align-items: stretch;
+}
+
+div#imagem > img{
+    min-height: 100%;
+    width: auto;
+    object-fit: cover;
+}
+
+section#login > div#formulario{
+    width: 55%;
+    order: 1;
+    margin: -5px auto;
+}
+
+p{
+  font-size: 0.8em; 
+}
+
+div#formulario > form > div#forgotkey > input, 
+div#formulario > form > div#entrar > input{
+    width: 500px;
+}
+
+div#forgotkey img#carta{
+    transform: translate(-415%, 390%);
+}
+
+div#formulario > form > div#email > input{
+    left: 53%;
+    width: 445px;
+}
+
+div#formulario > form > div#senha > input{
+    left: 53%;
+    width: 445px;
+}
+
+section#login > div#formulario{
+    margin-top: 20px;
+}
+
+section#login > div#formulario > h1{
+    font-size: 2em;
+}

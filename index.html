@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="media-queries.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/tv.css" media="screen and (min-width: 992px)">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="imagens/pexels-tyler-lastovich-699122.jpg" alt="celular">
+            </div>
+            <br>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <div id="email">
+                        <label for="iemail"><img src="imagens/profile/1x/outline_person_outline_white_24dp.png" alt=""></label>
+                        <input type="email" name="email" id="iemail" required placeholder="Seu e-mail">
+                    </div>
+                    <div id="senha">
+                        <label for="isenha"><img src="imagens/key/1x/outline_vpn_key_white_24dp.png" alt="ícone de chave"></label>
+                        <input type="password" name="senha" id="isenha" minlength="8" required placeholder="Sua senha">
+                    </div>
+                    <div id="entrar">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div id="forgotkey">
+                        <input type="submit" value="Esqueci a senha"> <img id='carta' src="imagens/email/1x/mail.png" alt="">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
